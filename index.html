@@ -4,49 +4,67 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Rashmi Rathore — Graphic Designer & Visual Artist</title>
-  <meta name="description" content="Rashmi Rathore — Graphic Designer & Visual Artist. Adobe Photoshop & CorelDRAW specialist. Portfolio and contact." />
+  <meta name="description" content="Portfolio of Rashmi Rathore — Graphic Designer & Visual Artist. Works: logo design, poster design, digital art and photography." />
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <meta name="theme-color" content="#ffffff">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#hero">RASHMI RATHORE</a>
-      <button id="nav-toggle" class="nav-toggle" aria-label="Open navigation">☰</button>
-      <nav id="nav" class="nav">
+      <a class="brand" href="#hero">Rashmi Rathore</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false">☰</button>
+      <nav id="nav" class="nav" aria-label="Primary">
+        <a href="#portfolio">Portfolio</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-        <a class="btn" href="resume.md" download>Resume</a>
+        <a href="#resume">Resume</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <section id="hero" class="hero">
       <div class="container hero-grid">
         <div class="hero-text">
           <h1>Rashmi Rathore</h1>
-          <p class="lead">Graphic Designer & Visual Artist — Adobe Photoshop, CorelDRAW, Visual Storytelling</p>
-          <p class="meta">Jaipur, Rajasthan • <a href="mailto:rathorerashmi205@gmail.com">rathorerashmi205@gmail.com</a> • +91 85600 04640</p>
-          <p class="cta-row">
-            <a class="btn primary" href="#projects">View Work</a>
-            <a class="btn" href="resume.md" download>Download Resume</a>
+          <p class="lead">Graphic Designer & Visual Artist</p>
+          <p>A creative Visual Arts graduate with a strong foundation in digital aesthetics and visual storytelling. Expert in Adobe Photoshop and CorelDRAW, focused on crafting high-quality graphics that communicate effectively.</p>
+          <p style="margin-top:1rem">
+            <a class="btn primary" href="#portfolio">View Portfolio</a>
+            <a class="btn" href="resume.md" style="margin-left:.6rem">View Resume</a>
           </p>
         </div>
         <div class="hero-image">
-          <img src="assets/avatar.svg" alt="Rashmi Rathore — avatar">
+          <!-- optional portrait or artwork thumbnail; use an asset from assets/ if available -->
+          <img src="assets/photography/" alt="Artwork or portrait" onerror="this.style.display='none'">
         </div>
       </div>
     </section>
 
-    <section id="about" class="section container">
-      <h2>About</h2>
-      <p>A creative Visual Arts graduate with a strong foundation in digital aesthetics and visual storytelling. Expert in Adobe Photoshop and CorelDRAW, focused on crafting high-quality graphics that communicate effectively. A motivated fresher eager to apply academic knowledge and artistic skills to professional design projects.</p>
+    <section id="portfolio" class="section alt">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <p class="note">Selected works organized by category. Click any image to view larger.</p>
+        <div id="gallery-grid" class="grid gallery-grid"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>A motivated fresher eager to apply academic knowledge and artistic skills to professional design projects.</p>
+        <h3>Education</h3>
+        <ul class="education-list">
+          <li>BVA, Biyani Girls College, Jaipur — 2023-24</li>
+          <li>Higher Secondary, Vadanta International School — 2022-23</li>
+          <li>Secondary Education, Vadanta International School — 2020-21</li>
+        </ul>
+        <h3>Academic Projects & Interests</h3>
+        <ul>
+          <li>Visual Branding Series — brand identities and logo concepts</li>
+          <li>Digital Compositing — advanced photo manipulation and retouching</li>
+        </ul>
+      </div>
     </section>
 
     <section id="skills" class="section alt">
@@ -54,7 +72,7 @@
         <h2>Skills & Toolkit</h2>
         <div class="grid skills-grid">
           <div>
-            <h3>Software</h3>
+            <h4>Software</h4>
             <ul>
               <li>Adobe Photoshop</li>
               <li>CorelDRAW</li>
@@ -62,121 +80,51 @@
             </ul>
           </div>
           <div>
-            <h3>Design</h3>
+            <h4>Design</h4>
             <ul>
               <li>Logo Creation</li>
               <li>Poster Design</li>
-              <li>Digital Art, Retouching</li>
+              <li>Digital Art</li>
             </ul>
           </div>
           <div>
-            <h3>Artistic</h3>
+            <h4>Artistic</h4>
             <ul>
               <li>Color Theory</li>
               <li>Sketching</li>
               <li>Visual Composition</li>
             </ul>
           </div>
-          <div>
-            <h3>Languages</h3>
-            <ul>
-              <li>English (Proficient)</li>
-              <li>Hindi (Native)</li>
-            </ul>
-          </div>
         </div>
       </div>
     </section>
 
-    <section id="education" class="section container">
-      <h2>Education</h2>
-      <ul class="education-list">
-        <li><strong>BVA — Bachelors in Visual Arts</strong>, Biyani Girls College, Jaipur — Class of 2023-24</li>
-        <li><strong>Higher Secondary (Class XII)</strong>, Vadanta International School, Jaipur — 2022-23</li>
-        <li><strong>Secondary (Class X)</strong>, Vadanta International School, Jaipur — 2020-21</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="section alt">
+    <section id="resume" class="section">
       <div class="container">
-        <h2>Selected Projects</h2>
-        <div class="grid projects-grid">
-          <article class="project-card">
-            <img src="assets/project1.svg" alt="Visual Branding Series — Thumbnail">
-            <h3>Visual Branding Series</h3>
-            <p>Developed unique brand identities and logo concepts using vector-based tools like CorelDRAW.</p>
-          </article>
-
-          <article class="project-card">
-            <img src="assets/project2.svg" alt="Digital Compositing — Thumbnail">
-            <h3>Digital Compositing</h3>
-            <p>Advanced photo manipulation and retouching, creating compelling compositions in Photoshop.</p>
-          </article>
-
-          <article class="project-card">
-            <img src="assets/project3.svg" alt="Poster & Illustration — Thumbnail">
-            <h3>Poster & Illustration</h3>
-            <p>Posters and illustrative work combining hand-drawn and digital techniques.</p>
-          </article>
-        </div>
-        <p class="note">Portfolio available on request — contact me via email to receive full portfolio PDFs or links to high-res images.</p>
-      </div>
-    </section>
-
-    <section id="gallery" class="section container">
-      <h2>Gallery</h2>
-      <div class="grid gallery-grid" id="gallery-grid">
-        <img src="assets/project1.svg" alt="Gallery item 1" data-full="assets/project1.svg">
-        <img src="assets/project2.svg" alt="Gallery item 2" data-full="assets/project2.svg">
-        <img src="assets/project3.svg" alt="Gallery item 3" data-full="assets/project3.svg">
-      </div>
-      <div id="lightbox" class="lightbox" aria-hidden="true">
-        <button id="lightbox-close" class="lightbox-close" aria-label="Close">×</button>
-        <img id="lightbox-img" src="" alt="">
-      </div>
-    </section>
-
-    <section id="contact" class="section alt">
-      <div class="container contact-grid">
-        <div>
-          <h2>Contact</h2>
-          <p>If you'd like to commission work, see the full portfolio, or discuss collaboration, please get in touch.</p>
-          <ul class="contact-list">
-            <li><strong>Email:</strong> <a href="mailto:rathorerashmi205@gmail.com">rathorerashmi205@gmail.com</a></li>
-            <li><strong>Phone:</strong> <a href="tel:+918560004640">+91 85600 04640</a></li>
-            <li><strong>Location:</strong> Jaipur, Rajasthan</li>
-          </ul>
-        </div>
-
-        <form id="contact-form" class="contact-form" action="mailto:rathorerashmi205@gmail.com" method="post" enctype="text/plain">
-          <label>
-            Name
-            <input type="text" name="Name" required placeholder="Your name">
-          </label>
-          <label>
-            Email
-            <input type="email" name="Email" required placeholder="Your email">
-          </label>
-          <label>
-            Message
-            <textarea name="Message" rows="5" required placeholder="A short message"></textarea>
-          </label>
-          <div class="form-actions">
-            <button type="submit" class="btn primary">Send</button>
-            <button type="reset" class="btn">Reset</button>
-          </div>
-          <p class="form-note">Note: This form opens your email client (mailto). For a server-backed form, replace action with your endpoint or use Formspree/Netlify Forms.</p>
-        </form>
+        <h2>Resume</h2>
+        <p class="note">Structured resume content from source. For full PDF, upload `Rashmi Resume.pdf` to project root and update the download link.</p>
+        <h3>Professional Summary</h3>
+        <p>A creative Visual Arts graduate with a strong foundation in digital aesthetics and visual storytelling. Expert in Adobe Photoshop and CorelDRAW, focused on crafting high-quality graphics that communicate effectively.</p>
+        <h3>Languages</h3>
+        <p>English (Proficient), Hindi (Native)</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Rashmi Rathore — Graphic Designer & Visual Artist</p>
+      <small>&copy; <span id="year"></span> Rashmi Rathore — Portfolio</small>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <!-- Lightbox (used by js/main.js) -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Close">✕</button>
+    <button id="lightbox-prev" class="lightbox-nav" aria-label="Previous image">◀</button>
+    <button id="lightbox-next" class="lightbox-nav" aria-label="Next image">▶</button>
+    <img id="lightbox-img" src="" alt="" />
+  </div>
+
+  <script src="js/main.js" defer></script>
 </body>
 </html>

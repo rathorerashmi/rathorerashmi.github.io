@@ -1,0 +1,42 @@
+[
+  {
+    "id": "logo-1",
+    "title": "Sugar Logo",
+    "category": "Logo Design",
+    "year": "2024",
+    "role": "Designer",
+    "tools": ["CorelDRAW", "Adobe Photoshop"],
+    "description": "Logo concept exploration and brand mark development.",
+    "images": ["assets/logo-design/sugar-1.jpg"]
+  },
+  {
+    "id": "photo-1",
+    "title": "Pears Still Life",
+    "category": "Photography",
+    "year": "2024",
+    "role": "Photographer",
+    "tools": ["Adobe Photoshop"],
+    "description": "Still life composition and color study.",
+    "images": ["assets/photography/photography-pears.jpg"]
+  },
+  {
+    "id": "poster-1",
+    "title": "Sugar Poster Series",
+    "category": "Poster",
+    "year": "2024",
+    "role": "Designer",
+    "tools": ["Adobe Photoshop"],
+    "description": "Poster design exploring typography and texture.",
+    "images": ["assets/poster/poster-sugar-14.jpg", "assets/poster/sugar3.jpg"]
+  },
+  {
+    "id": "sketch-1",
+    "title": "Sketch Study",
+    "category": "Sketch",
+    "year": "2024",
+    "role": "Artist",
+    "tools": ["Pencil"],
+    "description": "Original sketch study focusing on form and shading.",
+    "images": ["assets/sketch/sketch-01.jpg"]
+  }
+]

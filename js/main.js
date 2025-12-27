@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function(){
         img.decoding = 'async';
         img.setAttribute('tabindex','0');
         img.setAttribute('role','button');
-        img.alt = proj.title + ' — ' + (proj.category || '');
+        img.alt = proj.alt || (proj.title + ' — ' + (proj.category || ''));
         img.dataset.full = imgPath;
         // allow opening lightbox with Enter/Space when focused
         img.addEventListener('keydown', (ev)=>{

@@ -7,7 +7,8 @@
     "role": "Designer",
     "tools": ["CorelDRAW", "Adobe Photoshop"],
     "description": "Logo concept exploration and brand mark development.",
-    "images": ["assets/logo-design/sugar-1.jpg"]
+    "images": ["assets/logo-design/sugar-1.jpg"],
+    "alt": "Sugar brand logo"
   },
   {
     "id": "photo-1",
@@ -17,7 +18,8 @@
     "role": "Photographer",
     "tools": ["Adobe Photoshop"],
     "description": "Still life composition and color study.",
-    "images": ["assets/photography/photography-pears.jpg"]
+    "images": ["assets/photography/photography-pears.jpg"],
+    "alt": "Pears still life photography"
   },
   {
     "id": "poster-1",
@@ -27,7 +29,8 @@
     "role": "Designer",
     "tools": ["Adobe Photoshop"],
     "description": "Poster design exploring typography and texture.",
-    "images": ["assets/poster/poster-sugar-14.jpg", "assets/poster/sugar3.jpg"]
+    "images": ["assets/poster/poster-sugar-14.jpg", "assets/poster/sugar3.jpg"],
+    "alt": "Poster designs from the Sugar series"
   },
   {
     "id": "sketch-1",
@@ -37,6 +40,7 @@
     "role": "Artist",
     "tools": ["Pencil"],
     "description": "Original sketch study focusing on form and shading.",
-    "images": ["assets/sketch/sketch-01.jpg"]
+    "images": ["assets/sketch/sketch-01.jpg"],
+    "alt": "Pencil sketch study"
   }
 ]

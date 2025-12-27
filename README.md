@@ -1,5 +1,33 @@
 # Rashmi Rathore — Portfolio (GitHub Pages)
 
+This repository is a static portfolio site intended to be published via GitHub Pages.
+
+Quick notes
+- Resume PDF: `assets/Rashmi Resume.pdf` (download linked from the site).
+- Images: stay in `assets/` subfolders (`logo-design`, `photography`, `poster`, `sketch`).
+- Styles: `css/style.css` — minimal, modern layout.
+- Scripts: `js/main.js` loads `js/projects.json` to render the gallery.
+
+Run locally
+
+```bash
+# Serve site locally from repo root
+python3 -m http.server 8000
+# then open http://localhost:8000/
+```
+
+Deploy to GitHub Pages
+
+1. Push to the `main` branch.
+2. In repo settings -> Pages, set source to `main` branch (root) and save.
+
+If you want thumbnails or resized images, generate them into `assets/thumbs/` and update `js/projects.json` to point to the smaller images for faster load.
+
+Accessibility & privacy
+- No contact forms are included.
+- All images should have alt text defined in `js/projects.json` or generated from project titles.
+# Rashmi Rathore — Portfolio (GitHub Pages)
+
 This repository contains a static portfolio website for Rashmi Rathore, built as a single-page responsive site using HTML, CSS, and a small JavaScript file.
 
 Preview (after publishing): https://rathorerashmi.github.io

@@ -11,6 +11,18 @@
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   color-scheme: light;
 }
+/* Skip link */
+.skip-link{position:fixed;left:0;top:0;background:var(--accent);color:white;padding:0.5rem 0.75rem;border-radius:0 0.25rem 0.25rem 0;transform:translateY(-120%);transition:transform .18s ease-in-out;z-index:80}
+.skip-link:focus{transform:translateY(0);outline:none}
+
+/* Focus-visible improvements for keyboard users */
+a:focus-visible, button:focus-visible, .btn:focus-visible, .lightbox-close:focus-visible, .lightbox-nav:focus-visible{outline:3px solid rgba(200,75,255,0.25);outline-offset:3px}
+
+/* Slight visual polish */
+.hero-text h1{font-size:2.5rem}
+.lead{font-size:1.05rem}
+.btn{transition:transform .12s ease, box-shadow .12s ease}
+.btn:active{transform:translateY(1px)}
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
